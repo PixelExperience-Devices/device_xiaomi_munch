@@ -340,10 +340,10 @@
         Note that this value should *not* reflect the maximum brightness value for any high
         brightness modes but only the maximum brightness value obtainable in a sustainable manner.
         This array should be equal in size to config_screenBrightnessBacklight -->
-    <array name="config_screenBrightnessNits">
-        <item>4.5</item>
-        <item>1000.0</item>
-    </array>
+    <integer-array name="config_screenBrightnessNits">
+        <item>5</item>
+        <item>1000</item>
+    </integer-array>
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
         percent. The length of this array is assumed to be one greater than
