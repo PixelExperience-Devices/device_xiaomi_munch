@@ -8,13 +8,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common pe stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+PRODUCT_NAME := aosp_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
