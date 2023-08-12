@@ -26,6 +26,11 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
     
+# NGA packages
+PRODUCT_PACKAGES += \
+    NgaResources \
+    nga
+    
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
