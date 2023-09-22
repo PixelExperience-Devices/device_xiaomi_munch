@@ -23,6 +23,8 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Camera
+PRODUCT_NO_CAMERA := true
+
 PRODUCT_PACKAGES += \
     libpiex_shim
     
