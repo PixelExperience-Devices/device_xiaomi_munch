@@ -14,6 +14,7 @@ TARGET_USES_AOSP_RECOVERY := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
