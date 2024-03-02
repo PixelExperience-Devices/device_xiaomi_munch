@@ -3,18 +3,18 @@
    "repository"  : "device_xiaomi_sm8250-common",
    "target_path" : "device/xiaomi/sm8250-common",
    "remote"      : "pixel-devices",
-   "branch"      : "thirteen"
+   "branch"      : "fourteen"
  },
  {
    "repository"  : "vendor_xiaomi_munch",
    "target_path" : "vendor/xiaomi/munch",
    "remote"      : "pixel-devices-blobs",
-   "branch"      : "thirteen"
+   "branch"      : "fourteen"
  },
  {
    "repository"  : "vendor_xiaomi_munch-firmware",
    "target_path" : "vendor/xiaomi/munch-firmware",
    "remote"      : "pixel-devices-blobs",
-   "branch"      : "thirteen"
+   "branch"      : "fourteen"
  }
 ]
